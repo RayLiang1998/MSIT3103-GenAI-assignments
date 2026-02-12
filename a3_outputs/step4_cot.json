@@ -1,0 +1,38 @@
+[
+  {
+    "step": "cot",
+    "task_id": "t1",
+    "prompt": "You are a helpful assistant. Let's think step by step and show reasoning before the final answer.\nUse the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nSummarize the key features of the Acme Coffee app.",
+    "response": "To summarize the key features of the Acme Coffee app, I will break down the information into steps:\n\n1. Customization: Users can customize drinks.\n2. Saving favorites: Users can save their favorite drinks for easy access.\n3. Scheduling pickup: Users can schedule pick-up for orders.\n\nThese are the core features that make up the mobile ordering app of Acme Coffee.\n\nSince there are no additional specific features mentioned in the context, I will provide a short final answer based on these key features:\n\nFinal Answer: The key features of the Acme Coffee app include customization options to create personalized drinks, saving favorite orders for easy access, and scheduling pick-up.\n\n",
+    "meta": {
+      "cot": true
+    }
+  },
+  {
+    "step": "cot",
+    "task_id": "t2",
+    "prompt": "You are a helpful assistant. Let's think step by step and show reasoning before the final answer.\nUse the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nList three KPIs and explain why they matter.",
+    "response": "To determine the most relevant KPIs for Acme Coffee's mobile ordering app, let's analyze each option:\n\n1. **Daily Active Users (DAU)**: This metric measures how many unique users are using the app on a daily basis. It's crucial because it indicates whether the app is gaining traction and can help inform decisions about resource allocation and user acquisition strategies.\n\n2. **Average Order Value (AOV)**: This KPI tracks the average amount spent by customers in each order. It's important for several reasons:\n   - AOV affects revenue: Higher AOV means more sales, which directly contributes to revenue growth.\n   - AOV helps optimize pricing: If prices are too high or low, customers may cancel their orders due to perceived value, impacting overall revenue.\n   - AOV informs marketing strategies: Businesses can adjust pricing, promotions, and product offerings based on customer spending patterns.\n\n3. **Retention Rate (D7)**: This metric measures the percentage of users who return to the app within 7 days. It's significant because:\n   - High retention indicates user satisfaction and loyalty, which is a key indicator of a successful app.\n   - A higher retention rate suggests that customers are more engaged with the app, making it easier for businesses to upsell or cross-sell products or services.\n\nConsidering these explanations, DAU, AOV, and Retention D7 are essential KPIs for evaluating the success and growth of Acme Coffee's mobile ordering app.\n\n",
+    "meta": {
+      "cot": true
+    }
+  },
+  {
+    "step": "cot",
+    "task_id": "t3",
+    "prompt": "You are a helpful assistant. Let's think step by step and show reasoning before the final answer.\nUse the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nPropose two experiments to increase AOV.",
+    "response": "To propose two experiments to increase Average Order Value (AOV) in the Acme Coffee mobile ordering app, I'll outline a step-by-step approach with reasoning. Here are the proposed experiments:\n\n**Experiment 1: \"Drink of the Week\" Feature**\n\nObjective: To increase AOV by highlighting seasonal drinks and encouraging users to purchase them.\n\nReasoning:\n\n* Seasonal drinks tend to be more popular during specific times of the year (e.g., winter, summer).\n* By showcasing a \"Drink of the Week,\" Acme Coffee can create buzz around new or limited-time drinks.\n* This approach also allows users to save their favorite seasonal drinks and order them when they're in season.\n\nImplementation:\n\n1. Identify 2-3 seasonal drinks with high demand during peak periods (e.g., holidays, summer weekends).\n2. Develop a visually appealing \"Drink of the Week\" feature that highlights the featured drink.\n3. Create a promotion to encourage users to purchase the featured drink (e.g., limited-time offer or discounted price for a set period).\n\n**Experiment 2: \"Barista Recommendation Assistant\" Integration**\n\nObjective: To increase AOV by providing users with personalized recommendations and incentivizing them to try new drinks.\n\nReasoning:\n\n* The barista recommendation assistant can suggest complementary or similar products that users might not have tried before.\n* This approach encourages users to explore new flavors and ingredients, potentially increasing AOV.\n* Additionally, the integration can provide users with valuable feedback from their favorite baristas on what they've enjoyed.\n\nImplementation:\n\n1. Integrate a customer review system that allows customers to rate their experiences with baristas.\n2. Develop an algorithm that recommends drinks based on user reviews and preferences.\n3. Display personalized recommendations for users who are likely to enjoy the recommended drink.\n\nFinal Answer: \n\n- Experiment 1: \"Drink of the Week\" Feature\n- Experiment 2: \"Barista Recommendation Assistant\" Integration\n\n",
+    "meta": {
+      "cot": true
+    }
+  },
+  {
+    "step": "cot",
+    "task_id": "t4",
+    "prompt": "You are a helpful assistant. Let's think step by step and show reasoning before the final answer.\nUse the context to avoid hallucinations. Provide a short final answer at the end under 'Final Answer: ...'.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nWrite a short FAQ answer: 'How do I redeem reward points?'",
+    "response": "To redeem reward points on our mobile ordering app, follow these steps:\n\n1. Ensure you have logged in to your account.\n2. Browse the rewards catalog by tapping the 'Rewards' tab.\n3. Select the type of reward you'd like to redeem (e.g., 'Buy One Get One Free').\n4. Choose a suitable date and time for redemption, keeping in mind our store's operating hours.\n5. Confirm your selection and proceed to checkout as you normally would.\n\nYou will receive an email notification with your reward points balance after the successful redemption.\n\n",
+    "meta": {
+      "cot": true
+    }
+  }
+]

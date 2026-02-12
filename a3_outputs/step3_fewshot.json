@@ -1,0 +1,38 @@
+[
+  {
+    "step": "fewshot",
+    "task_id": "t1",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: List two seasonal drinks in the app and describe them briefly.\nA: - Pumpkin Spice Latte: spiced espresso with milk\n- Peppermint Mocha: minty chocolate espresso\n\nQ: Explain what DAU means.\nA: Daily Active Users; the number of unique users opening the app on a given day.\n\nNow answer the new question using the context below.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nSummarize the key features of the Acme Coffee app.",
+    "response": "Here are the key features of the Acme Coffee app based on the provided context:\n\n- Seasonal drinks\n- Reward points system\n- Referral codes for loyalty and engagement\n- Barista recommendation assistant\n- Tracking weekly KPIs: daily active users (DAU), average order value (AOV), and retention Daily 7\n\n",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t2",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: List two seasonal drinks in the app and describe them briefly.\nA: - Pumpkin Spice Latte: spiced espresso with milk\n- Peppermint Mocha: minty chocolate espresso\n\nQ: Explain what DAU means.\nA: Daily Active Users; the number of unique users opening the app on a given day.\n\nNow answer the new question using the context below.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nList three KPIs and explain why they matter.",
+    "response": "Based on the context, here are three key performance indicators (KPIs) for Acme Coffee's mobile ordering app, along with explanations of why they matter:\n\n1. **Daily Active Users (DAU)**: This metric measures how many unique users open the app each day. A high DAU indicates that users are actively engaging with the app and using its features regularly, which can lead to increased sales and revenue for Acme Coffee.\n\n2. **Average Order Value (AOV)**: This KPI calculates the average amount spent by users on their orders in a given period. High AOV suggests that customers are satisfied with their purchases and are likely to return or make repeat orders, leading to increased loyalty and retention for Acme Coffee.\n\n3. **Retention D7**: This refers to the percentage of active users who remain engaged with the app over a 7-day period. A high retention rate means that customers are staying loyal to Acme Coffee's brand, which can lead to positive word-of-mouth marketing, recommendations, and ultimately, increased sales and revenue in the long run.\n\nThese KPIs matter because they provide insights into user behavior and loyalty, allowing Acme Coffee to make data-driven decisions to optimize its app, improve customer experience, and drive business growth.\n\n",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t3",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: List two seasonal drinks in the app and describe them briefly.\nA: - Pumpkin Spice Latte: spiced espresso with milk\n- Peppermint Mocha: minty chocolate espresso\n\nQ: Explain what DAU means.\nA: Daily Active Users; the number of unique users opening the app on a given day.\n\nNow answer the new question using the context below.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nPropose two experiments to increase AOV.",
+    "response": "I'd be happy to help you with that proposal. Based on the context provided, here are two potential experiments to increase Average Order Value (AOV):\n\n**Experiment 1: \"Seasonal Surprise\" - Introducing Limited-Time Offers**\n\n* Objective: To incentivize customers to try new seasonal drinks and increase overall AOV.\n* Methodology:\n\t+ Identify three unique seasonal drinks offered in the app during a specific quarter (e.g., summer, fall, winter).\n\t+ Create limited-time offers for these seasonal drinks, such as discounts or bundle deals.\n\t+ Encourage customers to try the seasonal drink by offering a \"Buy One Get One Free\" promotion on that day.\n* Tracking:\n\t+ Monitor daily active users (DAU) and AOV using historical data.\n\t+ Measure the impact of this experiment on DAU and AOV, comparing it to control weeks with regular offers.\n\n**Experiment 2: \"Barista Boost\" - Targeting Frequent Customers**\n\n* Objective: To increase AOV among frequent customers by offering personalized rewards and loyalty program benefits.\n* Methodology:\n\t+ Collect customer data (e.g., order history, preferences) to identify frequent customers.\n\t+ Introduce a reward program that offers exclusive discounts, free drinks, or priority ordering for these high-value customers.\n\t+ Partner with the barista recommendation assistant to provide personalized drink recommendations based on customer preferences and purchase history.\n* Tracking:\n\t+ Monitor DAU and AOV using historical data.\n\t+ Measure the impact of this experiment on DAU and AOV, comparing it to control weeks without reward program benefits.\n\nThese experiments aim to increase average order value by incentivizing customers to try new seasonal drinks and providing personalized rewards for frequent customers. The chosen experiment(s) will be evaluated based on their effectiveness in boosting AOV while minimizing potential negative effects on the business.\n\n",
+    "meta": {
+      "k": 2
+    }
+  },
+  {
+    "step": "fewshot",
+    "task_id": "t4",
+    "prompt": "You are a helpful assistant. Here are some QA examples:\n\nQ: List two seasonal drinks in the app and describe them briefly.\nA: - Pumpkin Spice Latte: spiced espresso with milk\n- Peppermint Mocha: minty chocolate espresso\n\nQ: Explain what DAU means.\nA: Daily Active Users; the number of unique users opening the app on a given day.\n\nNow answer the new question using the context below.\n\nContext:\nAcme Coffee is launching a mobile ordering app. Users can customize drinks, save favorites, and schedule pickup.\nNew features include: seasonal drinks, reward points, referral codes, and a barista recommendation assistant.\nThe team tracks weekly KPIs: daily active users (DAU), average order value (AOV), and retention D7.\n\nQuestion:\nWrite a short FAQ answer: 'How do I redeem reward points?'",
+    "response": "Our reward program is designed to encourage repeat business. To redeem your reward points, simply:\n\n1. Open the app on your mobile device.\n2. Navigate to your order history or favorites section.\n3. Click on \"Rewards\" and select the reward you'd like to redeem (e.g., coffee cupcake).\n4. Follow the prompts to log in with your App ID and password.\n\nThat's it! Your earned rewards points will be added to your account balance, and you can use them towards future purchases or treats.\n\n",
+    "meta": {
+      "k": 2
+    }
+  }
+]
